@@ -1,5 +1,5 @@
 body {
-  background: #002400;
+  background: #7B904B;
 	text-align: center;
   font-family: 'Open Sans', sans-serif;
   width: 90%;
@@ -20,29 +20,6 @@ a:hover {color: orange}
 nav {
 	background:white;
 }
-#mainmenu {
-  margin: 10px;
-  width: 900px;
-  font-family: 'Open Sans', sans serif;
-}
-#mainmenu li {
-  display:block;
-  width:120px
-  float:left;
-  margin-left:2px;
-  border:1px solid #000;
-}
-#mainmenu a {
-	display:block;
-	padding:3px;
-	text-decoration:none;
-	background-color:#fff;
-	color:#009;
-}
-#mainmenu a:hover {
-	background-color:#009;
-	color:#fff;
-}
 img {
 	width:50%;
 	border: 0;
@@ -57,4 +34,39 @@ h1 {
 }
 p {
 	font-family: 'Open Sans', sans-serif;
+}
+.navcontainer nav {
+  background: #C29779;
+  display: block;
+}
+
+.navcontainer ul {
+    display: flex;
+    list-style-type: none;
+    text-align: center;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #002400;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+}
+
+.navcontainer li {
+  margin: 2px;
+  padding: 10px;
+}
+
+.navcontainer a {
+  text-decoration: none;
+  font-weight: bold;
+  font-style:normal;
+  text-transform: inherit;
+  color: white;
+  font-weight: 600;
+  font-size: 1.25em;
+}
+
+.navcontainer a:hover {
+  color: #FFFFFF;
 }
