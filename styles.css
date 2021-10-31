@@ -213,7 +213,7 @@ img{
   margin: 0px;
   padding: 30px;
   display: flex;
-  list-style-type: circle;
+  list-style-type: none;
   flex-direction: column;
   justify-content: flex-start;
   align-items: left;
@@ -230,7 +230,7 @@ img{
   margin: 0px;
   padding: 30px;
   display: flex;
-  list-style-type: circle;
+  list-style-type: none;
   flex-direction: column;
   justify-content: flex-start;
   align-items: left;
@@ -239,4 +239,8 @@ img{
   width: 100%;
   color: white;
   text-align: left;
+}
+.prostitle li{
+  list-style: none;
+  font-weight: bold;
 }
